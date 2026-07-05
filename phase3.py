@@ -24,7 +24,7 @@ from phase2 import semantic_diagnostic_engine
 
 # Initialize FastAPI and Groq Client
 # app = FastAPI(title="AI Clinical Support System")
-client = Groq(api_key="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") # Use your free Groq key
+client = Groq(api_key="") # Use your free Groq key
 
 class SymptomRequest(BaseModel):
     symptoms: str
